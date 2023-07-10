@@ -1,0 +1,35 @@
+## POSTECH Institute of Artificial Intelligence
+
+1. copy anaconda environment [magicwand-clean.yaml]
+>> conda env create --file magicwand-clean.yaml
+
+2. fill input img folder [./img/input]
+
+3. launch python file [magicwand-clean.py]
+>> python magicwand-clean.py
+
+4. save before moving to next img [keyboard : s]
+
+
+## default setting
+
+- command
+	- exit : esc
+	- save : s
+	- add area : shift + Lclick
+	- subtract area : ctrl + Lclick
+	- next img : d
+	- previous img : a
+	- undo : z
+	- redo : c
+	- zoom in / out from pointer : scroll
+
+- tolerance : 30
+
+- window_size : 480, 480 (width, height)
+
+- img_size : same as input img size
+
+- path 
+	- input : ./img/input/
+	- output : ./img/output/
